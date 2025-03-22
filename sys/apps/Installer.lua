@@ -33,7 +33,7 @@ if UI.term.width < 32 then
 end
 
 local page = UI.Page {
-	backgroundColor = colors.cyan,
+	backgroundColor = colors.gray,
 	titleBar = UI.TitleBar {
 		event = cancelEvent,
 	},
