@@ -35,7 +35,9 @@ end
 local page = UI.Page {
 	backgroundColor = colors.black,
 	titleBar = UI.TitleBar {
-		event = cancelEvent,
+    		event = cancelEvent,
+    		backgroundColor = colors.red,  -- Set the background color
+    		textColor = colors.white,       -- Set the text color
 	},
 	wizard = UI.Wizard {
 		y = 2, ey = -2,
