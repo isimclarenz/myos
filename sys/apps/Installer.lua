@@ -33,7 +33,7 @@ if UI.term.width < 32 then
 end
 
 local page = UI.Page {
-	backgroundColor = colors.gray,
+	backgroundColor = colors.black,
 	titleBar = UI.TitleBar {
 		event = cancelEvent,
 	},
@@ -47,8 +47,12 @@ local page = UI.Page {
 }
 
 local pages = {
-	splash  = UI.Viewport { },
-	review  = UI.Viewport { },
+	splash  = UI.Viewport {
+		backgroundColor = colors.black,
+	},
+	review  = UI.Viewport {
+		backgroundColor = colors.black,
+	},
 	license = UI.Viewport {
 		backgroundColor = colors.black,
 	},
