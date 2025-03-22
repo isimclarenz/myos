@@ -14,5 +14,5 @@
 
 ## Install
 ```
-pastebin run UzGHLbNC
+pastebin run AMWb6jHG
 ```
