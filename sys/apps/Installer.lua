@@ -119,7 +119,7 @@ function pages.splash:draw()
     	self:print(
         	string.format('%s v%s\n', install.title, install.version), nil, colors.yellow)
     	self:print(
-        	string.format('By: %s\n\n%s\n', install.author, install.description), nil, colors.white)  -- Change to green
+        	string.format('By: %s\n\n%s\n', install.author, install.description), nil, colors.white)
 
     self.ymax = self.cursorY
 end
