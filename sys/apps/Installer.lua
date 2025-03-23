@@ -114,12 +114,12 @@ function pages.splash:enable()
 end
 
 function pages.splash:draw()
-    self:clear()
-    self:setCursorPos(1, 1)
-    self:print(
-        string.format('%s v%s\n', install.title, install.version), nil, colors.yellow)
-    self:print(
-        string.format('By: %s\n\n%s\n', install.author, install.description), nil, colors.green)  -- Change to green
+    	self:clear()
+   	self:setCursorPos(1, 1)
+    	self:print(
+        	string.format('%s v%s\n', install.title, install.version), nil, colors.yellow)
+    	self:print(
+        	string.format('By: %s\n\n%s\n', install.author, install.description), nil, colors.white)  -- Change to green
 
     self.ymax = self.cursorY
 end
@@ -261,9 +261,10 @@ end
 
 --[[ Branch ]]--
 function pages.branch:enable()
-	page.titleBar.title = 'Select Branch'
-	page.titleBar:draw()
-	UI.Window.enable(self)
+    page.titleBar.title = 'Select Branch'
+    page.titleBar.backgroundColor = colors.green  -- Set the background color to green
+    page.titleBar:draw()
+    UI.Window.enable(self)
 end
 
 function pages.branch:eventHandler(event)
