@@ -114,14 +114,14 @@ function pages.splash:enable()
 end
 
 function pages.splash:draw()
-	self:clear()
-	self:setCursorPos(1, 1)
-	self:print(
-		string.format('%s v%s\n', install.title, install.version), nil, colors.yellow)
-	self:print(
-		string.format('By: %s\n\n%s\n', install.author, install.description))
+    self:clear()
+    self:setCursorPos(1, 1)
+    self:print(
+        string.format('%s v%s\n', install.title, install.version), nil, colors.yellow)
+    self:print(
+        string.format('By: %s\n\n%s\n', install.author, install.description), nil, colors.green)  -- Change to green
 
-	self.ymax = self.cursorY
+    self.ymax = self.cursorY
 end
 
 --[[ License ]]--
