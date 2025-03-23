@@ -262,7 +262,6 @@ end
 --[[ Branch ]]--
 function pages.branch:enable()
     page.titleBar.title = 'Select Branch'
-    page.titleBar.backgroundColor = colors.green  -- Set the background color to green
     page.titleBar:draw()
     UI.Window.enable(self)
 end
