@@ -29,10 +29,10 @@ local function loadBootOptions()
 			preload = { },
 			menu = {
 				{ prompt = os.version() },
-				{ prompt = 'Opus'         , args = { '/sys/boot/opus.lua' } },
-				{ prompt = 'Opus Shell'   , args = { '/sys/boot/opus.lua', '/sys/apps/shell.lua' } },
-				{ prompt = 'Opus Kiosk'   , args = { '/sys/boot/kiosk.lua' } },
-				{ prompt = 'Opus TLCO'    , args = { '/sys/boot/tlco.lua' } },
+				{ prompt = 'myOS'         , args = { '/sys/boot/opus.lua' } },
+				{ prompt = 'myOS Shell'   , args = { '/sys/boot/opus.lua', '/sys/apps/shell.lua' } },
+				{ prompt = 'myOS Kiosk'   , args = { '/sys/boot/kiosk.lua' } },
+				{ prompt = 'myOS TLCO'    , args = { '/sys/boot/tlco.lua' } },
 			},
 		}))
 		f.close()
