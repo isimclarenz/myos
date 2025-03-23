@@ -7,18 +7,18 @@ local colors   = _G.colors
 local os       = _G.os
 local shell    = _ENV.shell
 
-local splashIntro = [[First Time Setup
+local splashIntro = [[Setup
 
-%sThanks for installing Opus OS. The next screens will prompt you for basic settings for this computer.]]
-local labelIntro = [[Set a friendly name for this computer.
+%smyOS is now installed on your device. The next screens will prompt you for basic settings for this computer.]]
+local labelIntro = [[Set a name for this device.
 
 %sNo spaces recommended.]]
-local passwordIntro = [[A password is required for wireless access.
+local passwordIntro = [[To access wireless, a password is required. For security, you also may set a password.
 
 %sLeave blank to skip.]]
 local packagesIntro = [[Setup Complete
 
-%sOpen the package manager to add software to this computer.]]
+%sOpen the package manager to add software to this device.]]
 local contributorsIntro = [[Contributors%s
 
 Anavrins:    Encryption/security/custom apps
